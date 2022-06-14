@@ -170,7 +170,7 @@ body {
   max-width: 865px;
   font-family: 'Raleway';
   font-weight: 400;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 28px;
   margin-bottom: 40px;
 }
@@ -698,7 +698,7 @@ body {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 85px;
+  line-height: 54px;
   color: #8DC8CF;
   margin-bottom: 64px;
   text-shadow: 0px 0px 30px #000000;
@@ -790,10 +790,11 @@ body {
   }
   .steps__title {
     font-size: 25px;
+    margin-bottom: 10px;
   }
   .steps__descr {
     margin-top: 0;
-    font-size: 17px;
+    font-size: 20px;
   }
   .steps__item_left .number {
     right: 65px;
@@ -826,8 +827,8 @@ body {
     height: 1200px;
   }
   .for-you__descr {
-    font-size: 17px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 26px;
   }
   .benefit {
     height: 803px;
@@ -853,7 +854,7 @@ body {
     line-height: 35px;
   }
   .benefit__list-item {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 27px;
   }
   .benefit__item {
