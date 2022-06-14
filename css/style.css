@@ -735,8 +735,8 @@ body {
 @media (max-width: 1500px) {
   .hello .title {
     font-size: 36px;
-    margin-bottom: 10px;
-    line-height: 59px;
+    margin-bottom: 0px;
+    line-height: 50px;
   }
   .hello .descr {
     max-width: 600px;
