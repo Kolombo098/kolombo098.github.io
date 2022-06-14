@@ -113,7 +113,13 @@ $(window).scroll(function () {
 
   if ($(window).width() < 992) {  
     $('.carousel__inner').slick({
-      unslick: none
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: false,
+      arrows: false,
+      centerPadding: '0px',
       
     });
     
@@ -128,7 +134,7 @@ $(window).scroll(function () {
       centerPadding: '10px',
       
     });
-  };
+  }; 
 
 });
 
