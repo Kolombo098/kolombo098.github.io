@@ -123,10 +123,8 @@ body {
 .promo {
   position: relative;
   top: -90px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 52, 60, 0)), color-stop(50%, rgba(45, 52, 60, 0)), to(#242B33)), url("../img/promo_bg.jpg") center center/cover no-repeat;
-  background: linear-gradient(180deg, rgba(45, 52, 60, 0) 0%, rgba(45, 52, 60, 0) 50%, #242B33 100%), url("../img/promo_bg.jpg") center center/cover no-repeat;
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 52, 60, 0)), color-stop(50%, rgba(45, 52, 60, 0)), color-stop(95%, #242B33)), url("../img/promo_bg.jpg") center center/cover no-repeat;
+  background: linear-gradient(180deg, rgba(45, 52, 60, 0) 0%, rgba(45, 52, 60, 0) 50%, #242B33 95%), url("../img/promo_bg.jpg") center center/cover no-repeat;
   min-height: 701px;
   padding: 230px 120px 73px 120px;
   text-align: center;
@@ -272,7 +270,7 @@ body {
 }
 
 .benefit {
-  min-height: 940px;
+  min-height: 740px;
   height: 1px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 52, 60, 0)), color-stop(80%, rgba(45, 52, 60, 0)), color-stop(95.04%, rgba(45, 52, 60, 0.38)), to(#242B33)), url("../img/benefits_bg.jpg") center center/cover no-repeat;
   background: linear-gradient(180deg, rgba(45, 52, 60, 0) 0%, rgba(45, 52, 60, 0) 80%, rgba(45, 52, 60, 0.38) 95.04%, #242B33 100%), url("../img/benefits_bg.jpg") center center/cover no-repeat;
@@ -994,7 +992,8 @@ body {
     display: block;
   }
   .header__navigation-item_logo img {
-    width: 153px;
+    width: 130px;
+    height: 38px;
   }
   .header__call {
     margin-right: 20px;
