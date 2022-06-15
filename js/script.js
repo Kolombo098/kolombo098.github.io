@@ -15,11 +15,13 @@ $(document).ready(function(){
 
 const menu = document.querySelector('.header__navigation'),
   menuItem = document.querySelectorAll('.header__navigation-item'),
+  tapScreen = document.querySelector('.tap-screen'),
   hamburger = document.querySelector('.hamburger');
 
   hamburger.addEventListener('click', () => {
       hamburger.classList.toggle('hamburger_active');
       menu.classList.toggle('header__navigation_active');
+      tapScreen.classList.toggle('tap-screen_active');
 
   });
 
@@ -27,8 +29,17 @@ const menu = document.querySelector('.header__navigation'),
       item.addEventListener('click', () => {
           hamburger.classList.toggle('hamburger_active');
           menu.classList.toggle('header__navigation_active');
+          tapScreen.classList.toggle('tap-screen_active');
+
       })
-  })
+  });
+
+  tapScreen.addEventListener('click', () => {
+    hamburger.classList.toggle('hamburger_active');
+    menu.classList.toggle('header__navigation_active');
+    tapScreen.classList.toggle('tap-screen_active');
+
+  });
 
 
   $('div.hamburger').on('click', function() {
