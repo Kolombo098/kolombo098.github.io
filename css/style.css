@@ -476,14 +476,13 @@ body {
           transition-duration: 0.2s all;
 }
 
-.carousel .slick-dots button:hover {
-  -webkit-box-shadow: 0px 0px 10px #8DC8CF;
-          box-shadow: 0px 0px 10px #8DC8CF;
-}
-
 @media (min-width: 992px) {
   .carousel .slick-list {
     width: 1045px;
+  }
+  .carousel .slick-dots button:hover {
+    -webkit-box-shadow: 0px 0px 10px #8DC8CF;
+            box-shadow: 0px 0px 10px #8DC8CF;
   }
 }
 
