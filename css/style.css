@@ -416,6 +416,7 @@ body {
 .carousel .container .slide {
   width: 100%;
   margin-top: 30px;
+  max-height: 157px;
 }
 
 .carousel .container .slide__descr {
